@@ -18,7 +18,7 @@ class PolymorphicFieldTypeSchema extends FieldTypeSchema
     /**
      * Add the field type columns.
      *
-     * @param Blueprint           $table
+     * @param Blueprint $table
      * @param AssignmentInterface $assignment
      */
     public function addColumn(Blueprint $table, AssignmentInterface $assignment)
@@ -47,7 +47,7 @@ class PolymorphicFieldTypeSchema extends FieldTypeSchema
     /**
      * Update the field type columns.
      *
-     * @param Blueprint           $table
+     * @param Blueprint $table
      * @param AssignmentInterface $assignment
      */
     public function updateColumn(Blueprint $table, AssignmentInterface $assignment)

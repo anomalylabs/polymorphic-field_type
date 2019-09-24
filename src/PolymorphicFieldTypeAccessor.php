@@ -21,7 +21,6 @@ class PolymorphicFieldTypeAccessor extends FieldTypeAccessor
     public function set($value)
     {
         if ($value instanceof EloquentModel) {
-
             $entry = $this->fieldType->getEntry();
 
             $attributes = $entry->getAttributes();
